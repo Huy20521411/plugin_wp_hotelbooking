@@ -1,0 +1,32 @@
+/* Xác định phần tử chứa thông tin về phòng */
+.room-details {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Định dạng tiêu đề của mỗi phòng */
+.room-details h3 {
+    margin-top: 0;
+}
+
+/* Định dạng các đoạn văn bản trong mỗi phòng */
+.room-details p {
+    margin-bottom: 5px;
+}
+
+/* Định dạng nút "Đặt chỗ" */
+.room-details a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+/* Định dạng khi di chuột qua nút "Đặt chỗ" */
+.room-details a:hover {
+    background-color: #0056b3;
+}
